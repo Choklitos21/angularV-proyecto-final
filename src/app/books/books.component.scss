@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  place-items: center;
+}
+
+app-books-list {
+  width: 80%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}

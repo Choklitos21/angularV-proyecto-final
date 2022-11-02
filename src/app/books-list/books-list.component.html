@@ -1,0 +1,13 @@
+<div class="container">
+  <div *ngFor="let book of books" class="container__card">
+    <div class="container__card__content">
+      <div class="container__card__content__text">
+        <h2>{{book.title}}</h2>
+        <p>{{book.description}}</p>
+      </div>
+      <div class="container__card__content__button">
+        <button>Schedule Club Session</button>
+      </div>
+    </div>
+  </div>
+</div>
